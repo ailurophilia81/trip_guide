@@ -3447,22 +3447,30 @@ function renderColorPresets() {
 
 async function loadTripData() {
   try {
-    const res = await fetch('./data/trip.json', { cache: 'no-store' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const raw = await res.json();
-    // 1) 로드 시 1회 검증 → 화면 배너로 표시 (콘솔 X)
-    try { renderValidationBanner(validateTrip(raw)); } catch (e) { console.warn('validate failed', e); }
-    // 2) 정규화(누락 방어 + v1→v2) 후 주입 → 렌더 코드는 v2 가정
+    const urlParams = new URLSearchParams(location.search);
+    const tripId = urlParams.get('id');
+    let raw;
+
+    if (tripId) {
+      const res = await fetch(`/api/trip?id=${tripId}`);
+      if (res.ok) {
+        raw = await res.json();
+        window._currentTripId = tripId;
+      } else {
+        raw = await fetch('./data/trip.json').then(r => r.json());
+      }
+    } else {
+      const saved = localStorage.getItem('trip_custom_json');
+      raw = saved
+        ? JSON.parse(saved)
+        : await fetch('./data/trip.json', { cache: 'no-store' }).then(r => r.json());
+    }
+
+    try { renderValidationBanner(validateTrip(raw)); } catch {}
     applyTripData(normalizeTrip(raw));
-    // 3) 해시 딥링크 적용 (데이터 로드 후라 DAYS/ATTRACTIONS 사용 가능)
-    try { applyInitialRoute(); } catch (e) { console.warn('route init failed', e); }
-    // 저장된 색상 우선
-    let saved = null;
-    try { saved = localStorage.getItem('trip_color'); } catch {}
-    if (saved) applyColor(hexShades(saved), false);
+    try { applyInitialRoute(); } catch {}
   } catch (err) {
     showBootstrapError(err.message);
-    console.error('trip.json load failed:', err);
   }
 }
 
@@ -3535,12 +3543,13 @@ function _parseEditorJson() {
 // "이 항목 적용" → 편집한 JSON 을 라이브 앱에 즉시 반영 (저장 X)
 function applyCurrentTab() {
   const obj = _parseEditorJson();
-  if (!obj) { alert('JSON 형식이 올바르지 않습니다. 메시지를 확인하세요.'); return; }
-  // 편집본도 동일하게 검증→배너→정규화 경로를 거친다
+  if (!obj) { alert('JSON 형식이 올바르지 않습니다.'); return; }
   try { renderValidationBanner(validateTrip(obj)); } catch {}
   applyTripData(normalizeTrip(obj));
   try { onPageEnter(curPage); } catch {}
-  alert('변경사항이 앱에 적용되었습니다 ✓\n(영구 저장하려면 "trip.json 저장"을 누르세요)');
+  // localStorage에도 백업
+  try { localStorage.setItem('trip_custom_json', JSON.stringify(obj)); } catch {}
+  alert('✅ 앱에 적용되었습니다!\n클라우드 저장은 편집기의 "trip.json 저장" 버튼을 누르세요.');
 }
 
 function _editorJsonBlob() {
@@ -3554,7 +3563,7 @@ async function saveTripJson() {
   const text = _editorJsonBlob();
   if (!text) { alert('JSON 오류'); return; }
 
-  // localStorage에도 저장 (오프라인 백업)
+  // localStorage 백업
   try { localStorage.setItem('trip_custom_json', text); } catch {}
 
   try {
@@ -3577,10 +3586,10 @@ async function saveTripJson() {
 
     const shareUrl = `${location.origin}${location.pathname}?id=${id}`;
     await navigator.clipboard.writeText(shareUrl).catch(() => {});
-    alert(`✅ 저장 완료!\n\n🔗 공유 링크 (클립보드 복사됨):\n${shareUrl}\n\n이 링크로 어느 기기에서든 접속 가능합니다.`);
+    alert(`✅ 클라우드 저장 완료!\n\n🔗 공유 링크 (클립보드 복사됨):\n${shareUrl}\n\n이 링크로 어느 기기에서든 접속 가능합니다.`);
 
   } catch (e) {
-    // API 실패 시 파일 다운로드로 폴백
+    alert('저장 실패: ' + e.message + '\n\n파일로 다운로드합니다.');
     downloadTripJson(text);
   }
 }

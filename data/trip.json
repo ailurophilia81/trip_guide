@@ -1,0 +1,2675 @@
+{
+  "meta": {
+    "pageTitles": {
+      "page-home": "",
+      "page-overview": "01 · Trip Overview",
+      "page-plan": "02 · 일정",
+      "page-weather": "03 · 날씨 정보",
+      "page-reservations": "04 · 예약 정보",
+      "page-food": "05 · Eat & Explore",
+      "page-transport": "06 · 교통 정보",
+      "page-attractions": "07 · Attractions",
+      "page-att-detail": "07 · Attractions",
+      "page-outfits": "08 · Outfits",
+      "page-expense": "09 · 지출 관리",
+      "page-checklist": "10 · 체크리스트",
+      "page-camera": "📷 라이브 카메라",
+      "page-shopping": "12 · Shopping"
+    },
+    "colorPresets": [
+      {
+        "title": "Blue",
+        "color": "#1E70FF",
+        "dark": "#1554CC",
+        "light": "#80B0FF",
+        "pale": "#EEF4FF",
+        "mid": "#BDD5FF"
+      },
+      {
+        "title": "Teal",
+        "color": "#3A9D90",
+        "dark": "#2D7A6F",
+        "light": "#7BCAC0",
+        "pale": "#E8F5F3",
+        "mid": "#B0E0DA"
+      },
+      {
+        "title": "Purple",
+        "color": "#60479F",
+        "dark": "#49367A",
+        "light": "#9F8AD0",
+        "pale": "#F0EDFA",
+        "mid": "#C9BDE8"
+      },
+      {
+        "title": "Green",
+        "color": "#059669",
+        "dark": "#047857",
+        "light": "#6EE7B7",
+        "pale": "#ECFDF5",
+        "mid": "#A7F3D0"
+      },
+      {
+        "title": "Red",
+        "color": "#DC2626",
+        "dark": "#B91C1C",
+        "light": "#FCA5A5",
+        "pale": "#FEF2F2",
+        "mid": "#FECACA"
+      },
+      {
+        "title": "Amber",
+        "color": "#D97706",
+        "dark": "#B45309",
+        "light": "#FCD34D",
+        "pale": "#FFFBEB",
+        "mid": "#FDE68A"
+      },
+      {
+        "title": "Pink",
+        "color": "#DB2777",
+        "dark": "#BE185D",
+        "light": "#F9A8D4",
+        "pale": "#FDF2F8",
+        "mid": "#FBCFE8"
+      },
+      {
+        "title": "Brown",
+        "color": "#B27147",
+        "dark": "#8E5938",
+        "light": "#D6A17D",
+        "pale": "#F7EFEA",
+        "mid": "#E6C4AE"
+      },
+      {
+        "title": "Sky",
+        "color": "#85D8EA",
+        "dark": "#4FAFC4",
+        "light": "#B9ECF5",
+        "pale": "#EFFBFD",
+        "mid": "#D5F4FA"
+      },
+      {
+        "title": "Sage",
+        "color": "#4C8B76",
+        "dark": "#3B6D5C",
+        "light": "#8BBFAE",
+        "pale": "#ECF5F2",
+        "mid": "#B8D8CD"
+      },
+      {
+        "title": "Cyan",
+        "color": "#0891B2",
+        "dark": "#0E7490",
+        "light": "#67E8F9",
+        "pale": "#ECFEFF",
+        "mid": "#A5F3FC"
+      }
+    ],
+    "schemaVersion": 2
+  },
+  "home": {
+    "hero": {
+      "metaDot": true,
+      "metaText": "3박 4일 · Japan Alps 2026",
+      "t1": "나가노",
+      "t2": "&amp; 가미코치",
+      "t3": "— 가나자와로",
+      "dateVal": "2026 · 07 · 23 — 26"
+    },
+    "compact": {
+      "title": "나가노 · 가미코치 · 가나자와",
+      "date": "2026.07.23 — 26"
+    },
+    "cardHeader": {
+      "title": "여행 가이드",
+      "badge": "3박 4일",
+      "sub": "성인 2 + 중학생 1 · 나가노 · 가미코치 · 가나자와"
+    },
+    "toc": [
+      {
+        "num": "01",
+        "icon": "🗺",
+        "page": "page-overview",
+        "label": "Trip Overview",
+        "sub": "루트 · 핵심 정보 · 하이라이트"
+      },
+      {
+        "num": "02",
+        "icon": "📅",
+        "page": "page-plan",
+        "label": "일정 Day 1~4",
+        "sub": "타임라인 · 이동 경로 · 길찾기"
+      },
+      {
+        "num": "03",
+        "icon": "⛅",
+        "page": "page-weather",
+        "label": "날씨 정보",
+        "sub": "날짜 입력 시 실예보 자동 전환"
+      },
+      {
+        "num": "04",
+        "icon": "✈️",
+        "page": "page-reservations",
+        "label": "예약 정보",
+        "sub": "항공 · 호텔 · 식당 · 잇큐/타베로그 링크"
+      },
+      {
+        "num": "05",
+        "icon": "🍽",
+        "page": "page-food",
+        "label": "Eat &amp; Explore",
+        "sub": "목적지별 식당 &amp; 먹거리 가이드"
+      },
+      {
+        "num": "06",
+        "icon": "🚗",
+        "page": "page-transport",
+        "label": "교통 정보",
+        "sub": "렌터카 · 셔틀 · 택시 · 필수 일본어"
+      },
+      {
+        "num": "07",
+        "icon": "🎡",
+        "page": "page-attractions",
+        "label": "Attractions",
+        "sub": "Activity별 체크리스트"
+      },
+      {
+        "num": "08",
+        "icon": "👗",
+        "page": "page-outfits",
+        "label": "Outfits",
+        "sub": "날짜별 기온 기반 추천 옷차림"
+      },
+      {
+        "num": "09",
+        "icon": "💴",
+        "page": "page-expense",
+        "label": "지출 관리",
+        "sub": "입력 · 통계 · CSV 내보내기"
+      },
+      {
+        "num": "10",
+        "icon": "✅",
+        "page": "page-checklist",
+        "label": "준비물 체크리스트",
+        "sub": "의류 · 건강 · 전자기기 · 서류",
+        "extraStyle": "border:none"
+      },
+      {
+        "num": "11",
+        "icon": "📷",
+        "page": "page-camera",
+        "label": "라이브 카메라",
+        "sub": "노리쿠라 · 갓파바시 · 겐로쿠엔 실시간"
+      },
+      {
+        "num": "12",
+        "icon": "🛍",
+        "page": "page-shopping",
+        "label": "Shopping",
+        "sub": "기념품 · 특산물 · 면세 쇼핑 가이드",
+        "extraStyle": "border-bottom:none"
+      }
+    ]
+  },
+  "overview": {
+    "photo": {
+      "src": "./web_img/kamikochi.png",
+      "alt": "가미코치"
+    },
+    "hero": {
+      "label": "01 · Trip Overview",
+      "title": "일본 알프스 &amp;<br>가나자와 여행",
+      "sub": "나가노 · 가미코치 · 가나자와 3박 4일 완벽 가이드"
+    },
+    "infoCards": [
+      {
+        "label": "✈️ 출발·도착",
+        "value": "고마쓰 공항",
+        "sub": "KMQ — 왕복"
+      },
+      {
+        "label": "📅 기간",
+        "value": "3박 4일",
+        "sub": "7월 23~26일"
+      },
+      {
+        "label": "👥 인원",
+        "value": "성인 2 + 중학생",
+        "sub": "14세 아들과 함께"
+      },
+      {
+        "label": "🚗 이동 수단",
+        "value": "렌터카 메인",
+        "sub": "셔틀·택시 병행"
+      },
+      {
+        "label": "⛰️ 최고 고도",
+        "value": "2,702m",
+        "sub": "다타미다이라"
+      },
+      {
+        "label": "💴 총 예산",
+        "value": "약 19.1만~31만 엔",
+        "sub": "3인 기준"
+      }
+    ],
+    "routeHeader": "📍 여행 루트",
+    "route": [
+      {
+        "title": "✈️ 고마쓰 공항 도착 → 히다",
+        "sub": "렌터카 픽업 · 히다규 점심",
+        "day": "Day 1"
+      },
+      {
+        "title": "🏔 노리쿠라 고원, 알프호른 펜션",
+        "sub": "알프호른 펜션 · 유황온천 · 별보기",
+        "day": "Day 1"
+      },
+      {
+        "title": "⛰️ 다타미다이라 2,702m",
+        "sub": "에코라인 셔틀 → 고산 등반",
+        "day": "Day 2"
+      },
+      {
+        "title": "🌿 가미코치 시라카바소",
+        "sub": "갓파바시 점심 · 묘진연못 · 야간 가이드 투어",
+        "day": "Day 2"
+      },
+      {
+        "title": "🏮 가나자와, 산리쿠 가나자와 호텔",
+        "sub": "다이쇼이케 아침 산책 · 겐로쿠엔 · 우오긴",
+        "day": "Day 3"
+      },
+      {
+        "title": "✈️ 고마쓰 공항 귀국",
+        "sub": "07:00 출발 → 10:10 비행",
+        "day": "Day 4"
+      }
+    ],
+    "highlights": [
+      "⛰️ 해발 2,702m 인증샷",
+      "🦅 뇌조 탐조",
+      "🐒 야생 원숭이 포토",
+      "🌫️ 다이쇼이케 아침 물안개",
+      "🌙 가미코치 야간 투어",
+      "🛁 유황온천 대절탕",
+      "✨ 고원 별보기",
+      "🐟 노도구로 구이",
+      "🍎 TROIS CINQ 애플파이"
+    ]
+  },
+  "transport": {
+    "items": [
+      {
+        "from": {
+          "time": "09:15",
+          "label": "고마쓰 KMQ"
+        },
+        "icon": "🚗",
+        "duration": "약 2시간",
+        "to": {
+          "time": "11:15",
+          "label": "히다 방면"
+        },
+        "name": "렌터카 이동 (Day 1)",
+        "cost": "고속도로 ¥4,500"
+      },
+      {
+        "from": {
+          "time": "07:00",
+          "label": "노리쿠라 버스터미널"
+        },
+        "icon": "🚌",
+        "duration": "약 50분",
+        "to": {
+          "time": "07:50",
+          "label": "다타미다이라"
+        },
+        "name": "에코라인 셔틀",
+        "ctag": "확인 필요",
+        "cost": "약 ¥4,700/인"
+      },
+      {
+        "from": {
+          "time": "12:00",
+          "label": "시영 제2주차장"
+        },
+        "icon": "🚕",
+        "duration": "25~30분",
+        "to": {
+          "time": "12:30",
+          "label": "가미코치"
+        },
+        "name": "택시 (1대, 3인 추천)",
+        "cost": "¥6,000"
+      },
+      {
+        "from": {
+          "time": "07:50",
+          "label": "가미코치 버스터미널"
+        },
+        "icon": "🚌",
+        "duration": "7분",
+        "to": {
+          "time": "07:57",
+          "label": "다이쇼이케"
+        },
+        "name": "가미코치 내부 버스 (Day 3 아침)",
+        "cost": "¥430~450/인"
+      },
+      {
+        "from": {
+          "time": "10:30",
+          "label": "사완도"
+        },
+        "icon": "🚗",
+        "duration": "2시간 40분",
+        "to": {
+          "time": "13:30",
+          "label": "가나자와"
+        },
+        "name": "렌터카 (Day 3)",
+        "cost": "고속도로 ¥4,500"
+      },
+      {
+        "from": {
+          "time": "07:00",
+          "label": "가나자와"
+        },
+        "icon": "🚗",
+        "duration": "약 50분",
+        "to": {
+          "time": "08:00",
+          "label": "고마쓰 공항"
+        },
+        "name": "렌터카 반납 (연료 만탱크 필수)",
+        "cost": "Day 4"
+      }
+    ],
+    "phrases": [
+      {
+        "kr": "감사합니다",
+        "jp": "아리가토 고자이마스"
+      },
+      {
+        "kr": "저기요·실례합니다",
+        "jp": "스미마센"
+      },
+      {
+        "kr": "얼마예요?",
+        "jp": "이쿠라데스카"
+      },
+      {
+        "kr": "이것 주세요",
+        "jp": "고레오 구다사이"
+      },
+      {
+        "kr": "예약했습니다",
+        "jp": "요야쿠 시테이마스"
+      },
+      {
+        "kr": "도와주세요!",
+        "jp": "타스케테 구다사이"
+      }
+    ]
+  },
+  "weatherTips": [
+    {
+      "icon": "⛰️",
+      "title": "다타미다이라(2,702m)",
+      "desc": "여름에도 10~15°C. 바람 강하고 체감온도 낮음. 보온 재킷·플리스 필수."
+    },
+    {
+      "icon": "🌧️",
+      "title": "오후 소나기(夕立)",
+      "desc": "장마 종료 직후 7월 말 오후 소나기가 잦음. 다타미다이라는 오전 이동이 핵심."
+    },
+    {
+      "icon": "☀️",
+      "title": "고산 자외선",
+      "desc": "평지 대비 2~3배. SPF50+ 선크림과 챙 넓은 모자 필수."
+    },
+    {
+      "icon": "🌅",
+      "title": "가미코치 아침 안개",
+      "desc": "이른 아침(6~8시) 안개가 특히 아름다움. 내부 숙박 특권."
+    },
+    {
+      "icon": "🏙️",
+      "title": "가나자와 시내",
+      "desc": "28~33°C 고온다습. 자외선 강함. 수분 보충 자주 하기."
+    }
+  ],
+  "checklist": {
+    "categories": [
+      {
+        "title": "👕 의류 & 장비",
+        "items": [
+          {
+            "text": "얇은 바람막이"
+          },
+          {
+            "text": "보온 재킷 또는 플리스",
+            "strong": true,
+            "warn": "⚠️ 다타미다이라 2,702m 필수!"
+          },
+          {
+            "text": "반팔 티셔츠 3~4벌"
+          },
+          {
+            "text": "트레킹화 (미끄럼 방지)"
+          },
+          {
+            "text": "접이식 우비·레인재킷"
+          }
+        ]
+      },
+      {
+        "title": "🏥 건강 & 안전",
+        "items": [
+          {
+            "text": "자외선 차단제 SPF50+",
+            "small": "고산 자외선 평지 대비 2~3배"
+          },
+          {
+            "text": "넓은 챙 모자 + 선글라스"
+          },
+          {
+            "text": "🔔 곰방울 (베어벨)",
+            "strong": true
+          },
+          {
+            "text": "개인 상비약",
+            "small": "해열제·소화제·파스·반창고"
+          }
+        ]
+      },
+      {
+        "title": "📱 전자기기",
+        "items": [
+          {
+            "text": "보조배터리 (대용량)",
+            "strong": true,
+            "warn": "⚠️ 다타미다이라·가미코치 충전 불가"
+          },
+          {
+            "text": "손전등·헤드랜턴",
+            "strong": true,
+            "small": "야간 투어·별보기용"
+          },
+          {
+            "text": "삼각대",
+            "small": "별·야경·장노출 촬영"
+          }
+        ]
+      },
+      {
+        "title": "📄 서류 & 금전",
+        "items": [
+          {
+            "text": "여권",
+            "strong": true,
+            "small": "유효기간 6개월 이상"
+          },
+          {
+            "text": "국제운전면허증",
+            "strong": true
+          },
+          {
+            "text": "현금 ¥80,000~100,000+",
+            "strong": true,
+            "warn": "⚠️ 묘진연못 ¥500 현금 별도"
+          }
+        ]
+      },
+      {
+        "title": "📋 예약 확인서",
+        "items": [
+          {
+            "text": "알프호른 펜션"
+          },
+          {
+            "text": "다타미다이라 셔틀버스",
+            "strong": true,
+            "warn": "⚠️ 1개월 전 필수!"
+          },
+          {
+            "text": "시라카바소"
+          },
+          {
+            "text": "호텔 산라쿠"
+          },
+          {
+            "text": "우오긴(魚吟)",
+            "strong": true,
+            "warn": "⚠️ 한국 출발 전 예약!"
+          }
+        ]
+      }
+    ]
+  },
+  "days": [
+    {
+      "label": "Day 1",
+      "date": "07/23",
+      "dow": "목",
+      "city": "고마쓰 → 노리쿠라",
+      "lat": 36.09,
+      "lng": 137.55,
+      "refDate": "2025-07-28",
+      "actualDate": "2026-07-23",
+      "budget": [
+        {
+          "label": "숙박 (2식 포함)",
+          "cost": {
+            "min": 45500,
+            "max": 45500,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "히다규 점심",
+          "cost": {
+            "min": 9000,
+            "max": 9000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "고속도로·주유",
+          "cost": {
+            "min": 10000,
+            "max": 16000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "기타",
+          "cost": {
+            "min": 3000,
+            "max": 5000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "1일 합계",
+          "cost": {
+            "min": 60000,
+            "max": 71500,
+            "currency": "JPY"
+          }
+        }
+      ],
+      "items": [
+        {
+          "type": "period",
+          "cls": "morning",
+          "label": "🌅 오전 Morning"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "✈️ 고마쓰 국제공항 도착",
+          "desc": "입국 수속·수하물 수령·렌터카 픽업. 약 30분.",
+          "ts": {
+            "icon": "🚗",
+            "time": "약 2시간",
+            "dist": "130km",
+            "from": "小松空港",
+            "to": "道の駅 ななもり清見",
+            "mode": "driving"
+          },
+          "startAt": "09:15",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🥩 히다규 점심",
+          "desc": "미치노에키 나나모리 키요미. 추천: <b>히다규 로스 정식(飛騨牛ロース御膳 ¥2,800)</b><br>히다규 규동(飛騨牛牛丼 ¥1,200)<br>히다 타카야마 라멘(飛騨高山ラーメン ¥900).",
+          "badge": {
+            "color": "gold",
+            "label": "MUST EAT"
+          },
+          "ts": {
+            "icon": "🚗",
+            "time": "약 15분",
+            "dist": "8.6km",
+            "from": "道の駅 ななもり清見",
+            "to": "ボスフーズ マーケット本店",
+            "mode": "driving"
+          },
+          "startAt": "12:00",
+          "endAt": null,
+          "links": [
+            {
+              "to": "food",
+              "ref": "hida"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🛒 마트 장보기",
+          "desc": "Boss 푸드마켓 본점 - 고로케, 지자케, 히다 PLEASURE 햄/소시지",
+          "ts": {
+            "icon": "🚗",
+            "time": "약 1시간 30분",
+            "dist": "66.2km",
+            "from": "ボスフーズ マーケット本店",
+            "to": "休暇村 乗鞍高原",
+            "mode": "driving"
+          },
+          "startAt": "13:30",
+          "endAt": null,
+          "links": [
+            {
+              "to": "shopping",
+              "ref": "hida_boss"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🌿 우시도메 연못 & 젠고로 폭포",
+          "desc": "수면에 노리쿠라다케가 반사되는 연못. 무료.",
+          "ts": {
+            "icon": "🚗",
+            "time": "약 8분",
+            "dist": "5km",
+            "from": "休暇村 乗鞍高原",
+            "to": "白濁温泉の宿 アルプスの癒し アルプホルン, 일본 〒390-1520 Nagano, Matsumoto, Azumi, 4030-3",
+            "mode": "driving"
+          },
+          "startAt": "15:00",
+          "endAt": null,
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att6"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🏡 알프호른 펜션 체크인",
+          "desc": "셔틀버스 예약 번호·출발 시간 재확인 필수!",
+          "startAt": "16:00",
+          "endAt": null,
+          "links": [
+            {
+              "to": "camera",
+              "ref": "norikura"
+            }
+          ]
+        },
+        {
+          "type": "period",
+          "cls": "evening",
+          "label": "🌙 저녁 Evening"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🍽 석식 (펜션 내 · 2식 포함)",
+          "desc": "노리쿠라 고원 식재료로 만든 산장 저녁 식사.",
+          "startAt": "18:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🛁 유황온천 대절탕",
+          "desc": "가족 전용 탕 프라이빗 온천. 이 여행의 숨은 하이라이트!",
+          "badge": {
+            "color": "teal",
+            "label": "HIGHLIGHT"
+          },
+          "startAt": "19:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "✨ 고원 별보기",
+          "desc": "손전등·방한복·삼각대 지참.",
+          "startAt": "야간",
+          "endAt": null
+        }
+      ]
+    },
+    {
+      "label": "Day 2",
+      "date": "07/24",
+      "dow": "금",
+      "city": "다타미다이라 → 가미코치",
+      "lat": 36.25,
+      "lng": 137.65,
+      "refDate": "2025-07-29",
+      "actualDate": "2026-07-24",
+      "budget": [
+        {
+          "label": "시라카바소 (2식 포함)",
+          "cost": {
+            "min": 121500,
+            "max": 121500,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "셔틀 왕복 3인 (편도 ¥2,350×2×3)",
+          "cost": {
+            "min": 14100,
+            "max": 14100,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "사완도 택시·가미코치 간식·기념품",
+          "cost": {
+            "min": 13000,
+            "max": 21000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "묘진연못 입장 (A안 선택 시)",
+          "cost": {
+            "min": 0,
+            "max": 1500,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "2일 합계",
+          "cost": {
+            "min": 148600,
+            "max": 158100,
+            "currency": "JPY"
+          }
+        }
+      ],
+      "items": [
+        {
+          "type": "period",
+          "cls": "morning",
+          "label": "🌅 오전 Morning"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "⏰ 기상 · 짐 정리",
+          "desc": "보온 재킷·방풍 아우터·선크림 SPF50+·간식·보조배터리 챙기기.",
+          "startAt": "05:30",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🚗 알프호른 펜션 출발",
+          "desc": "관광센터(N-29)까지 차로 약 5분. 주차 후 셔틀 탑승 준비.",
+          "ts": {
+            "icon": "🚗",
+            "time": "5분",
+            "dist": "2.5km",
+            "from": "白濁温泉の宿 アルプスの癒し アルプホルン, 일본 〒390-1520 Nagano, Matsumoto, Azumi, 4030-3",
+            "to": "N-29 乗鞍高原観光センター",
+            "mode": "driving"
+          },
+          "startAt": "06:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🚌 에코라인 셔틀 탑승",
+          "desc": "N-29 乗鞍高原観光センター 07:00 출발 → 畳平 07:55 도착. 약 55분 소요.<br>⚠️ 왕복 각각 별도 예약 필수 (발샤오라이넷). 성수기 만석 주의.",
+          "badge": {
+            "color": "red",
+            "label": "예약 필수"
+          },
+          "ts": {
+            "icon": "🚌",
+            "time": "약 55분",
+            "dist": "14km · 에코라인",
+            "from": "N-29 乗鞍高原観光センター",
+            "to": "乗鞍畳平",
+            "mode": "transit"
+          },
+          "startAt": "07:00",
+          "endAt": "07:55"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "⛰️ 大黒岳 왕복",
+          "desc": "畳平 버스터미널에서 도보 7분 → 등산로 입구 → <b>大黒岳 정상 2,772m</b> (15분·0.4km)<br><strong>📸 야리가타케·호타카다케·온타케·후지산(맑은 날) 360도 파노라마</strong><br><br>하산 후 마구사이케(에메랄드빛 화구호) 경유해 터미널 복귀<br>⏱ 왕복 약 1시간 20분<br>⚠️ 기온 10~15°C · 강풍 체감 5°C↓ → 방풍재킷 필수<br>⚠️ 고도 2,700m 자외선 매우 강함 → 선크림·모자·선글라스 필수",
+          "badge": {
+            "color": "teal",
+            "label": "HIGHLIGHT"
+          },
+          "startAt": "08:10",
+          "endAt": "09:30",
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att1"
+            },
+            {
+              "to": "camera",
+              "ref": "norikura"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🌸 마구사이케 · 고산화원 · 뇌조 탐색 · 사진",
+          "desc": "마구사이케(鎌ヶ池) — 터미널 바로 옆 에메랄드빛 화구호 · 고산식물 군락(초롱꽃·가을맞이꽃) · 🐦 뇌조 탐색 포인트<br>여유 있게 사진 찍고 10:20까지 터미널 복귀",
+          "startAt": "09:30",
+          "endAt": "10:20"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🛍 화장실 · 기념품 · 버스 대기",
+          "desc": "유노하나(온천 입욕제) · 얌얌트리 바움쿠헨 구매 가능. 10:45 하산 버스 탑승 준비.",
+          "startAt": "10:20",
+          "endAt": "10:40",
+          "links": [
+            {
+              "to": "shopping",
+              "ref": "norikura"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🚌 畳平 하산 셔틀 탑승",
+          "desc": "10:45 출발 → 乗鞍高原観光センター 11:40 도착.<br>⚠️ 이 버스를 놓치면 다음 편 13:05 — 이후 일정 전체가 1시간 20분 지연됨.",
+          "badge": {
+            "color": "red",
+            "label": "10:45 fix"
+          },
+          "ts": {
+            "icon": "🚌",
+            "time": "약 55분",
+            "dist": "셔틀 하산",
+            "from": "乗鞍畳平",
+            "to": "N-29 乗鞍高原観光センター",
+            "mode": "transit"
+          },
+          "startAt": "10:45",
+          "endAt": "11:40"
+        },
+        {
+          "type": "period",
+          "cls": "afternoon",
+          "label": "☀️ 오후 Afternoon"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🚗 렌터카 출발 → 시영 제2주차장",
+          "desc": "관광센터 도착 즉시 렌터카로 이동. 시영 제2주차장 ¥800/일 · 택시 승강장 인접.",
+          "ts": {
+            "icon": "🚗",
+            "time": "약 30분",
+            "dist": "13.4km",
+            "from": "N-29 乗鞍高原観光センター",
+            "to": "市営第二駐車場",
+            "mode": "driving"
+          },
+          "startAt": "11:50",
+          "endAt": "12:20"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🚕 시영 제2주차장 → 가미코치 택시 이동",
+          "desc": "택시 1대 3인 탑승 ¥6,000. 성수기(7월 금요일) 대기 최대 20~30분 감안.<br>가미코치 BT 도착 예상 13:20~14:00 (변수 있음)",
+          "ts": {
+            "icon": "🚕",
+            "time": "약 25~30분",
+            "dist": "11km",
+            "from": "市営第二駐車場",
+            "to": "上高地バスターミナル",
+            "mode": "transit"
+          },
+          "startAt": "12:20",
+          "endAt": "13:20"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🏨 가미코치 BT 도착 → 시라카바소에 캐리어 직접 맡기기",
+          "desc": "버스터미널에서 도보 5~7분(약 300m). 갓파바시 바로 옆. 체크인 전 짐 보관 가능.<br>짐 맡긴 후 바로 갓파바시로 이동.",
+          "badge": {
+            "color": "teal",
+            "label": "짐 보관 먼저"
+          },
+          "ts": {
+            "icon": "🚶",
+            "time": "도보 5~7분",
+            "dist": "약 300m",
+            "from": "上高地バスターミナル",
+            "to": "上高地 ホテル白樺荘",
+            "mode": "walking"
+          },
+          "startAt": "13:20",
+          "endAt": "13:40",
+          "links": [
+            {
+              "to": "camera",
+              "ref": "kamikochi-bt"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🍎 갓파바시 · 점심 · 간식",
+          "desc": "고센자쿠 애플파이 · TROIS CINQ 애플파이 · 갓파야키 · 생맥주로 다타미다이라 등반 후 체력 보충.<br>⚠️ 애플파이는 수량 한정 — 도착 즉시 픽업 우선.",
+          "badge": {
+            "color": "gold",
+            "label": "MUST BUY"
+          },
+          "startAt": "14:00",
+          "endAt": null,
+          "links": [
+            {
+              "to": "food",
+              "ref": "kamikochi"
+            },
+            {
+              "to": "shopping",
+              "ref": "kamikochi"
+            },
+            {
+              "to": "attractions",
+              "ref": "att7"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🥾 선택 산책 — 컨디션에 따라 결정",
+          "desc": "<b>기준선: 14:15 이전 출발 가능 여부로 판단</b><br><br><b>A안 (컨디션 최상 · 14:15 이전 출발 시)</b><br>갓파바시 → 다케사와습원(10분) → 묘진연못 왕복 · 총 7km · 약 2시간 15분<br>¥500 현금 필수 · 16:30 복귀 목표<br><br><b>B안 (컨디션 보통 · 14:15~14:30 출발)</b><br>갓파바시 → 다케사와습원 왕복 · 약 1km · 20~30분<br>아즈사가와 원시림 · 호타카 연봉 · 복귀 후 갓파바시 휴식<br><br><b>C안 (피곤할 때 / 14:30 이후)</b><br>갓파바시 강변 · 테라스 맥주 · 호타카 연봉 감상 · 기념품 쇼핑<br><br>⚠️ A안은 14:30 이후 출발이면 B·C안으로 전환 권장",
+          "badge": {
+            "color": "teal",
+            "label": "3가지 중 현장 선택"
+          },
+          "startAt": "14:15",
+          "endAt": "16:45",
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att5"
+            },
+            {
+              "to": "attractions",
+              "ref": "att7"
+            }
+          ]
+        },
+        {
+          "type": "period",
+          "cls": "evening",
+          "label": "🌙 저녁 Evening"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🏨 시라카바소 체크인 · 테라스 맥주",
+          "desc": "호타카 연봉 바라보며 생맥주. 2식 포함. 야간 투어 손전등 미리 준비.",
+          "startAt": "17:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🍽 석식",
+          "desc": "시라카바소 내 레스토랑. 석식 시간 체크인 시 확인.",
+          "startAt": "18:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🌙 야간 가이드 투어",
+          "desc": "별빛·숲 소리를 가이드와 함께. 손전등 필수! 사전 예약 필요.",
+          "badge": {
+            "color": "teal",
+            "label": "내부 숙박 특권"
+          },
+          "startAt": "19:30",
+          "endAt": null
+        }
+      ]
+    },
+    {
+      "label": "Day 3",
+      "date": "07/25",
+      "dow": "토",
+      "city": "가미코치 → 가나자와",
+      "lat": 36.56,
+      "lng": 136.66,
+      "refDate": "2025-07-30",
+      "actualDate": "2026-07-25",
+      "budget": [
+        {
+          "label": "호텔 산라쿠",
+          "cost": {
+            "min": 29515,
+            "max": 29515,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "히가시차야가이 + 겐로쿠엔",
+          "cost": {
+            "min": 3740,
+            "max": 5740,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "우오긴 저녁 (3인)",
+          "cost": {
+            "min": 15000,
+            "max": 24000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "고속도로비·주유",
+          "cost": {
+            "min": 7000,
+            "max": 10000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "3일 합계",
+          "cost": {
+            "min": 60740,
+            "max": 75740,
+            "currency": "JPY"
+          }
+        }
+      ],
+      "items": [
+        {
+          "type": "period",
+          "cls": "morning",
+          "label": "🌅 오전 Morning"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🌅 새벽 안개 갓파바시",
+          "desc": "가미코치 내부 숙박의 최대 특권. 아즈사가와 물안개와 호타카 연봉 모르겐로트.",
+          "badge": {
+            "color": "teal",
+            "label": "숙박 특권"
+          },
+          "startAt": "05:30",
+          "endAt": null,
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att7"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🍽️ 조식 (뷔페)",
+          "desc": "시라카바소 조식 뷔페. 07:50 버스를 놓치지 않도록 빠르게 마치기.",
+          "startAt": "06:45",
+          "endAt": "07:20"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🚌 버스 탑승 → 다이쇼이케",
+          "desc": "가미코치 버스터미널 07:50 출발 → 07:57 다이쇼이케 도착. 요금 ¥430~450. 7월~8월 이른 아침은 물안개(아사모야)의 황금 타임. 수면 리플렉션과 고사목이 만들어내는 환상적인 풍경은 이 시간대에만 볼 수 있음.",
+          "badge": {
+            "color": "teal",
+            "label": "아침 물안개 황금타임"
+          },
+          "ts": {
+            "icon": "🚌",
+            "time": "7분",
+            "dist": "3km",
+            "from": "上高地バスターミナル",
+            "to": "大正池",
+            "mode": "transit"
+          },
+          "startAt": "07:50",
+          "endAt": "07:57"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🌊 다이쇼이케 감상 · 사진 촬영",
+          "desc": "1915년 야케다케 분화로 생긴 연못. 수면에 잠긴 고사목과 호타카 연봉이 수면에 반영되는 가미코치 최고의 포토 포인트. <strong>아침 물안개(6:00~8:00)가 핵심</strong> — 햇살이 강해지면 안개가 사라지므로 도착 즉시 감상 우선.<br><br>⏱ 여유 있게 감상 후 도보 산책 시작",
+          "badge": {
+            "color": "teal",
+            "label": "HIGHLIGHT"
+          },
+          "ts": {
+            "icon": "🚶",
+            "time": "도보 약 1시간 40분",
+            "dist": "3.8km",
+            "from": "大正池",
+            "to": "河童橋",
+            "mode": "walking"
+          },
+          "startAt": "07:57",
+          "endAt": "09:00",
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att2"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🥾 다이쇼이케 → 다시로이케 → 다시로습원 → 호타카바시 → 웨스턴비 → 갓파바시",
+          "desc": "<b>[북쪽 우안 코스 · 약 3.8km · 약 1시간 40분]</b><br>다이쇼이케 출발 → <b>다시로이케</b> (25분·1.2km, 연두빛 얕은 습지) → <b>다시로습원 · 호타카바시</b> (20분·1.0km, 강 위 다리에서 연봉 조망) → <b>웨스턴비</b> (10분·0.5km, 아즈사가와 뷰포인트) → <b>갓파바시</b> (20분·1.1km)<br><br>⏱ 09:40 갓파바시 도착 목표<br>🐒 좌안보다 우안 코스에서 야생 원숭이 목격 확률 높음",
+          "startAt": "09:00",
+          "endAt": "09:40",
+          "links": [
+            {
+              "to": "camera",
+              "ref": "kamikochi-kappa"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🏨 시라카바소 복귀 → 짐 수령 → 체크아웃",
+          "desc": "갓파바시에서 시라카바소까지 도보 1~2분. 프런트에 체크아웃 신고 후 캐리어 수령. 전날 밤 미리 짐 정리 완료 권장.",
+          "ts": {
+            "icon": "🚶",
+            "time": "도보 약 5분",
+            "dist": "약 300m",
+            "from": "上高地 ホテル白樺荘",
+            "to": "上高地バスターミナル",
+            "mode": "walking"
+          },
+          "startAt": "09:40",
+          "endAt": "10:10"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🚌 가미코치 출발 → 사완도 이동",
+          "desc": "가미코치 버스터미널에서 택시로 사완도 주차장 이동. 렌터카 픽업 후 가나자와로 출발.",
+          "ts": {
+            "icon": "🚌",
+            "time": "약 30~40분",
+            "dist": "약 11km",
+            "from": "上高地バスターミナル",
+            "to": "さわんどバスターミナル",
+            "mode": "transit"
+          },
+          "startAt": "10:15",
+          "endAt": "11:00"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🚗 가나자와 출발",
+          "desc": "사완도 주차장에서 렌터카 픽업 후 가나자와로 이동. 휴게소 1회 포함 시 약 3시간 전후 예상.",
+          "ts": {
+            "icon": "🚗",
+            "time": "약 2시간 40분~3시간",
+            "dist": "약 130km",
+            "from": "さわんどバスターミナル",
+            "to": "36.573936713568344, 136.66509594550746",
+            "mode": "driving"
+          },
+          "startAt": "11:10",
+          "endAt": null
+        },
+        {
+          "type": "period",
+          "cls": "afternoon",
+          "label": "☀️ 오후 Afternoon"
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🏮 히가시차야가이 짧은 산책",
+          "desc": "시간이 남을 때만 넣는 옵션. 메인 거리와 금박 기념품점 정도만 빠르게 보고 호텔/겐로쿠엔으로 이동.",
+          "ts": {
+            "icon": "🚗",
+            "time": "약 4~5분",
+            "dist": "1km",
+            "from": "36.573936713568344, 136.66509594550746",
+            "to": "THE HOTEL SANRAKU KANAZAWA",
+            "mode": "driving"
+          },
+          "startAt": "14:00",
+          "endAt": "14:35",
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att3"
+            },
+            {
+              "to": "shopping",
+              "ref": "kanazawa"
+            },
+            {
+              "to": "food",
+              "ref": "kanazawa"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🏨 호텔 산라쿠 도착 · 주차 · 짐보관",
+          "desc": "가나자와 도착 후 호텔에 주차 및 짐 보관.",
+          "ts": {
+            "icon": "🚶",
+            "time": "약 16분",
+            "dist": "1.2km",
+            "from": "THE HOTEL SANRAKU KANAZAWA",
+            "to": "兼六園",
+            "mode": "walking"
+          },
+          "startAt": "14:40",
+          "endAt": "15:00"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🌿 겐로쿠엔 & 가나자와성 공원 핵심 산책",
+          "desc": "겐로쿠엔 중심으로 고토지등롱, 가스미가이케, 가라사키 소나무를 우선 관람. 시간이 남으면 이시카와몬 쪽으로 나와 가나자와성 공원 외곽만 짧게 산책.",
+          "badge": {
+            "color": "teal",
+            "label": "가나자와 대표 명소"
+          },
+          "ts": {
+            "icon": "🚶",
+            "time": "도보 약 15~20분",
+            "dist": "약 1.2~1.4km",
+            "from": "兼六園",
+            "to": "魚吟",
+            "mode": "walking"
+          },
+          "startAt": "15:00",
+          "endAt": "17:00",
+          "links": [
+            {
+              "to": "attractions",
+              "ref": "att4"
+            },
+            {
+              "to": "camera",
+              "ref": "kenrokuen"
+            }
+          ]
+        },
+        {
+          "type": "period",
+          "cls": "evening",
+          "label": "🌙 저녁 Evening"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "🐟 우오긴 저녁",
+          "desc": "노도구로 구이, 해산물, 지역 사케로 가나자와 미식 마무리. <strong>⚠️ 한국 출발 전 예약 필수!</strong> 1인 ¥5,000~8,000 예상.",
+          "badge": {
+            "color": "gold",
+            "label": "미식 클라이맥스"
+          },
+          "ts": {
+            "icon": "🚶",
+            "time": "도보 약 10~15분",
+            "dist": "약 800m~1km",
+            "from": "魚吟",
+            "to": "片町きらら",
+            "mode": "walking"
+          },
+          "startAt": "17:30",
+          "endAt": null,
+          "links": [
+            {
+              "to": "food",
+              "ref": "kanazawa"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🌃 가타마치 · 고린보 야간 산책",
+          "desc": "식사 후 가나자와 중심 번화가를 가볍게 산책.",
+          "startAt": "18:30",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🏨 호텔 산라쿠 도착 · 휴식",
+          "desc": "",
+          "startAt": "19:00",
+          "endAt": null
+        }
+      ]
+    },
+    {
+      "label": "Day 4",
+      "date": "07/26",
+      "dow": "일",
+      "city": "가나자와 → 고마쓰 귀국",
+      "lat": 36.39,
+      "lng": 136.41,
+      "refDate": "2025-07-31",
+      "actualDate": "2026-07-26",
+      "budget": [
+        {
+          "label": "주유",
+          "cost": {
+            "min": 2000,
+            "max": 4000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "공항 기념품·간식",
+          "cost": {
+            "min": 3000,
+            "max": 8000,
+            "currency": "JPY"
+          }
+        },
+        {
+          "label": "4일 합계",
+          "cost": {
+            "min": 5000,
+            "max": 12000,
+            "currency": "JPY"
+          }
+        }
+      ],
+      "items": [
+        {
+          "type": "period",
+          "cls": "morning",
+          "label": "🌅 오전 Morning"
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "⏰ 기상 · 최종 짐 정리",
+          "desc": "공항까지 50분, 시간 여유 없음!",
+          "badge": {
+            "color": "red",
+            "label": "중요"
+          },
+          "ts": {
+            "icon": "🚗",
+            "time": "약 50분",
+            "dist": "35km",
+            "from": "36.57063850158944, 136.6589304069268",
+            "to": "36.40601022576453, 136.41588962321694",
+            "mode": "driving"
+          },
+          "startAt": "05:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🚗 고마쓰 공항 이동",
+          "desc": "<strong>연료 만탱크</strong> 주유 필수!",
+          "startAt": "07:00",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 0,
+          "title": "🏷 렌터카 반납 · 탑승 수속",
+          "desc": "공항 기념품 쇼핑 약 2시간.",
+          "startAt": "07:50",
+          "endAt": null
+        },
+        {
+          "type": "item",
+          "hl": 1,
+          "title": "✈️ 고마쓰 공항 귀국 출발",
+          "desc": "3박 4일의 멋진 여행 마무리!",
+          "startAt": "10:15",
+          "endAt": null
+        }
+      ]
+    }
+  ],
+  "reservations": {
+    "flights": [
+      {
+        "id": "f1",
+        "type": "departure",
+        "label": "출국 항공편",
+        "from": {
+          "code": "ICN",
+          "city": "인천 국제공항"
+        },
+        "to": {
+          "code": "KMQ",
+          "city": "고마쓰 공항"
+        },
+        "date": "2026.07.23",
+        "flightNo": "KEXXXX",
+        "seat": "예약 후 확인",
+        "departTime": "07:30",
+        "arriveTime": "09:15",
+        "url": "https://www.koreanair.com",
+        "status": "booked"
+      },
+      {
+        "id": "f2",
+        "type": "return",
+        "label": "귀국 항공편",
+        "from": {
+          "code": "KMQ",
+          "city": "고마쓰 공항"
+        },
+        "to": {
+          "code": "ICN",
+          "city": "인천 국제공항"
+        },
+        "date": "2026.07.26",
+        "flightNo": "KEXXXX",
+        "seat": "예약 후 확인",
+        "departTime": "10:15",
+        "arriveTime": "12:10",
+        "url": "https://www.koreanair.com",
+        "status": "booked"
+      }
+    ],
+    "rentcar": [
+      {
+        "id": "c1",
+        "name": "도요타렌트카",
+        "nameJp": "Toyata",
+        "date": "07/23(목)",
+        "time": "10:00~",
+        "party": "3인",
+        "location": "이시카와현 고마쓰시 고마쓰 공항점",
+        "notes": "시엔타 하브 · ⚠️ Reservation No. XXXX-XXXX-XXX",
+        "price": "¥47,300",
+        "url": "https://www.toyota.co.jp/rent-a-car/",
+        "status": "booked"
+      }
+    ],
+    "hotels": [
+      {
+        "id": "h1",
+        "name": "알프호른 펜션",
+        "nameJp": "ペンション アルプホルン",
+        "checkIn": "07/23(목)",
+        "checkOut": "07/24(금)",
+        "nights": "1박",
+        "location": "나가노현 마쓰모토시 노리쿠라 고원",
+        "notes": "석식 포함 · 유황온천 대절탕 · 다타미다이라 셔틀 탑승 장소 인근",
+        "url": "",
+        "status": "booked"
+      },
+      {
+        "id": "h2",
+        "name": "가미코치 시라카바소",
+        "nameJp": "上高地白樺荘",
+        "checkIn": "07/24(금)",
+        "checkOut": "07/25(토)",
+        "nights": "1박",
+        "location": "나가노현 마쓰모토시 가미코치",
+        "notes": "석식·조식 포함 · 가미코치 내부 유일 공영 숙박 · 야간 가이드 투어 포함 · 체크인 전 짐 보관 가능",
+        "url": "",
+        "status": "booked"
+      },
+      {
+        "id": "h3",
+        "name": "호텔 산라쿠 가나자와",
+        "nameJp": "ホテル山楽 金沢",
+        "checkIn": "07/25(토)",
+        "checkOut": "07/26(일)",
+        "nights": "1박",
+        "location": "이시카와현 가나자와시 가타마치",
+        "notes": "가나자와역 도보 10분 · 가타마치 번화가 인근",
+        "url": "",
+        "status": "booked"
+      }
+    ],
+    "activities": [
+      {
+        "id": "a1",
+        "name": "다타미다이라 셔틀버스",
+        "nameJp": "乗鞍エコーライン シャトル",
+        "date": "07/24(금)",
+        "time": "07:00 출발",
+        "party": "3인",
+        "location": "노리쿠라 버스터미널 → 다타미다이라(2,702m)",
+        "notes": "⚠️ 1개월 전 예약 필수. 왕복 약 1시간. 오후 소나기 전 하산 목표.",
+        "price": "왕복 ¥4,700/인",
+        "url": "",
+        "status": "pending"
+      },
+      {
+        "id": "a2",
+        "name": "시라카바소 야간 가이드 투어",
+        "nameJp": "上高地白樺荘 ナイトウォーク",
+        "date": "07/24(금)",
+        "time": "19:20 체크인",
+        "party": "성인 2 + 학생 1",
+        "location": "가미코치 시라카바소",
+        "notes": "가미코치 프로 가이드 동반 별빛·숲 야간 산책 · 식사 없음 · 짐 보관 가능",
+        "price": "¥4,500 (전체)",
+        "url": "",
+        "status": "booked"
+      }
+    ],
+    "restaurants": [
+      {
+        "id": "r1",
+        "name": "우오긴",
+        "nameJp": "魚吟",
+        "date": "07/25(토)",
+        "time": "17:00~",
+        "party": "3인",
+        "location": "이시카와현 가나자와시 가타마치 2-17-17",
+        "notes": "노도구로 구이 코스 · 지역 사케 · ⚠️ 사전 예약 필요",
+        "price": "1인 ¥5,000~8,000",
+        "url": "https://booking.ebica.jp/webrsv/search/e020046201/21294?isfixshop=true&affiid=glb",
+        "status": "pending"
+      }
+    ]
+  },
+  "outfits": [
+    {
+      "day": "Day 1",
+      "date": "07/23 목",
+      "label": "드라이브 & 고원 산책",
+      "location": "고마쓰 → 히다 → 노리쿠라 고원 (~1,800m)",
+      "temp": "22~28°C / 고원 18~22°C",
+      "tempLevel": "warm",
+      "image": "./web_img/outfit_01.png",
+      "keyItems": [
+        "반팔 티셔츠",
+        "얇은 바람막이",
+        "트레킹 팬츠",
+        "운동화/하이킹화",
+        "SPF50+ 선크림"
+      ],
+      "tips": "드라이브 메인. 고원 도착 시 기온 하강 — 바람막이 필수"
+    },
+    {
+      "day": "Day 2 오전",
+      "date": "07/24 금 — 다타미다이라 2,702m",
+      "label": "고산 등반",
+      "location": "다타미다이라 해발 2,702m",
+      "temp": "10~15°C / 강풍 체감 5°C↓",
+      "tempLevel": "cold",
+      "image": "./web_img/outfit_02.png",
+      "keyItems": [
+        "보온 재킷/다운 (필수!)",
+        "플리스 미들레이어",
+        "방풍·방수 아우터",
+        "트레킹화",
+        "선글라스 필수"
+      ],
+      "tips": "⚠️ 여름에도 겨울 수준 방한 필요. 오전에 이동 — 오후 소나기 전에 하산"
+    },
+    {
+      "day": "Day 2 오후",
+      "date": "07/24 금 — 가미코치",
+      "label": "갓파바시 점심 & 묘진연못 산책",
+      "location": "가미코치 해발 1,500m",
+      "temp": "22~26°C / 저녁 16~18°C",
+      "tempLevel": "mild",
+      "image": "./web_img/outfit_01.png",
+      "keyItems": [
+        "반팔 티셔츠",
+        "경량 재킷 (저녁·야간용)",
+        "트레킹 팬츠",
+        "트레킹화",
+        "레인재킷 (소나기 대비)"
+      ],
+      "tips": "묘진연못 산책 시 트레킹화 필수. 저녁 야간 가이드 투어 시 기온 급강하 — 레이어링 필수"
+    },
+    {
+      "day": "Day 3 오전",
+      "date": "07/25 토 — 다이쇼이케·가미코치",
+      "label": "이른 아침 트레킹",
+      "location": "가미코치 해발 1,500m (다이쇼이케→갓파바시)",
+      "temp": "15~20°C (이른 아침 기준)",
+      "tempLevel": "mild",
+      "image": "./web_img/outfit_02.png",
+      "keyItems": [
+        "경량 재킷 (이른 아침 필수)",
+        "반팔 티셔츠",
+        "트레킹 팬츠",
+        "트레킹화",
+        "카메라 (물안개 촬영)"
+      ],
+      "tips": "07:57 다이쇼이케 도착. 이른 아침 물안개 타임이 핵심 — 카메라 준비 필수. 산책 중 날이 밝아지면 재킷 벗어도 OK"
+    },
+    {
+      "day": "Day 3 오후",
+      "date": "07/25 토 — 가나자와",
+      "label": "시내 관광 & 미식",
+      "location": "가나자와 시내 (해발 10m)",
+      "temp": "28~33°C / 고온다습",
+      "tempLevel": "hot",
+      "image": "./web_img/outfit_03.png",
+      "keyItems": [
+        "시원한 반팔 or 린넨 셔츠",
+        "면/린넨 팬츠",
+        "편한 스니커즈",
+        "휴대용 선풍기",
+        "저녁 식사용 카디건 (냉방)"
+      ],
+      "tips": "우오긴 저녁 식사 — 너무 캐주얼한 옷차림 피하기. 스마트 캐주얼 권장"
+    },
+    {
+      "day": "Day 4",
+      "date": "07/26 일 — 귀국",
+      "label": "공항 이동",
+      "location": "가나자와 → 고마쓰 공항",
+      "temp": "25~30°C",
+      "tempLevel": "warm",
+      "image": "./web_img/outfit_03.png",
+      "keyItems": [
+        "편한 여행복",
+        "공항용 가벼운 재킷",
+        "편한 운동화",
+        "기내 담요 대비 얇은 레이어"
+      ],
+      "tips": "수하물 무게 체크 후 짐 정리 완료. 07:00 이전 체크아웃"
+    }
+  ],
+  "attractions": [
+    {
+      "id": "att6",
+      "icon": "🌿",
+      "title": "우시도메 연못",
+      "titleEn": "Ushidome Pond",
+      "day": "Day 1 오후 15:00~16:00",
+      "location": "노리쿠라 고원 · 해발 약 1,400m",
+      "duration": "약 1시간",
+      "fee": "무료",
+      "image": "./web_img/norikura_01.png",
+      "placeId": "kyukamura-norikura",
+      "highlights": [
+        "노리쿠라다케 수면 반영 — 바람 없는 아침·저녁 최적",
+        "평탄한 고원 산책로 — 트레킹화 불필요",
+        "알프호른 체크인 전 立ち寄り 포인트",
+        "무료 · 주차 가능"
+      ],
+      "notes": "우시도메 연못에서 노리쿠라다케가 수면에 반사되는 포인트. 알프호른 펜션 체크인(16:00) 전 여유 있게 들를 수 있음.",
+      "checklist": [
+        {
+          "item": "편한 신발 (평탄한 산책로, 트레킹화 불필요)"
+        },
+        {
+          "item": "카메라 — 노리쿠라다케 수면 반영 촬영"
+        },
+        {
+          "item": "16:00 알프호른 펜션 체크인 시간 확인"
+        },
+        {
+          "item": "바람 없는 이른 저녁에 반영이 가장 선명"
+        }
+      ]
+    },
+    {
+      "id": "att9",
+      "icon": "🌿",
+      "title": "젠고로 폭포",
+      "titleEn": "Zengorō Falls",
+      "day": "Day 1 오후 15:00~16:00",
+      "location": "노리쿠라 고원 · 해발 약 1,400m",
+      "duration": "약 1시간",
+      "fee": "무료",
+      "image": "./web_img/norikura_01.png",
+      "placeId": "gengoro_waterfall",
+      "highlights": [
+        "젠고로 폭포 — 높이 약 10m 시원한 낙폭",
+        "평탄한 고원 산책로 — 트레킹화 불필요",
+        "알프호른 체크인 전 立ち寄り 포인트",
+        "무료 · 주차 가능"
+      ],
+      "notes": "젠고로 폭포는 주차장에서 도보 5분. 알프호른 펜션 체크인(16:00) 전 여유 있게 들를 수 있음.",
+      "checklist": [
+        {
+          "item": "편한 신발 (평탄한 산책로, 트레킹화 불필요)"
+        },
+        {
+          "item": "카메라 — 노리쿠라다케 수면 반영 촬영"
+        },
+        {
+          "item": "16:00 알프호른 펜션 체크인 시간 확인"
+        },
+        {
+          "item": "바람 없는 이른 저녁에 반영이 가장 선명"
+        }
+      ]
+    },
+    {
+      "id": "att1",
+      "icon": "⛰️",
+      "title": "다타미다이라 고산 등반",
+      "titleEn": "Tatamidaira Alpine",
+      "day": "Day 2 오전 07:00~11:00",
+      "location": "해발 2,702m · 노리쿠라에코라인",
+      "duration": "약 2~3시간",
+      "fee": "셔틀버스 왕복 약 ¥4,700/인",
+      "image": "./web_img/norikura_01.png",
+      "highlights": [
+        "다이코쿠다케 등반 인증",
+        "야생화 군락지",
+        "뇌조 탐조",
+        "일본 알프스 전망"
+      ],
+      "notes": "⚠️ 에코라인 셔틀 1개월 전 예약 필수. 오후 소나기 전 하산 목표.",
+      "checklist": [
+        {
+          "item": "에코라인 셔틀 예약 확인",
+          "warn": true
+        },
+        {
+          "item": "보온 재킷 / 방풍 아우터",
+          "warn": true
+        },
+        {
+          "item": "등산용 장갑"
+        },
+        {
+          "item": "방수 트레킹화"
+        },
+        {
+          "item": "자외선 차단제 SPF50+"
+        },
+        {
+          "item": "고산병 약 & 두통약"
+        },
+        {
+          "item": "보조배터리 (충전 불가)",
+          "warn": true
+        },
+        {
+          "item": "물 1L+ 및 간식 (영업시간·품절 대비 간식 지참)"
+        },
+        {
+          "item": "선글라스 (고산 자외선)"
+        }
+      ],
+      "placeId": "tatamidaira"
+    },
+    {
+      "id": "att2",
+      "icon": "🌊",
+      "title": "다이쇼이케 · 아침 물안개 산책 (다이쇼이케→갓파바시)",
+      "titleEn": "Taishoike Morning Mist Walk",
+      "day": "Day 3 오전 07:57~09:40",
+      "location": "가미코치 1,500m · 다이쇼이케→다시로이케→웨스턴비→갓파바시",
+      "duration": "약 1시간 40분 (3.8km)",
+      "fee": "무료 (버스 ¥430~450)",
+      "image": "./web_img/day_02_kamikochi.png",
+      "highlights": [
+        "🌫️ 아침 물안개 — 7~8월 06:00~08:00 황금타임",
+        "고사목·호타카 연봉 수면 반영",
+        "다시로이케 — 연두빛 얕은 습지",
+        "호타카바시 — 연봉 파노라마",
+        "웨스턴비 — 아즈사가와 뷰포인트",
+        "🐒 야생 원숭이 목격 포인트 (우안 코스)"
+      ],
+      "notes": "07:50 버스 탑승 → 07:57 다이쇼이케 도착. 도착 즉시 물안개 감상 우선. 햇살이 강해지면 안개 사라짐. 이른 아침 체크아웃 전 마지막 하이라이트.",
+      "checklist": [
+        {
+          "item": "07:50 버스 탑승 — 시간 엄수",
+          "warn": true
+        },
+        {
+          "item": "카메라 / 스마트폰 — 물안개·수면반영 촬영",
+          "warn": true
+        },
+        {
+          "item": "트레킹화 (슬리퍼 불가)"
+        },
+        {
+          "item": "경량 재킷 (이른 아침 기온 15~18°C)"
+        },
+        {
+          "item": "물 500ml 및 간식"
+        },
+        {
+          "item": "09:40 갓파바시 복귀 목표",
+          "warn": true
+        }
+      ],
+      "placeId": "kamikochi-kappa"
+    },
+    {
+      "id": "att7",
+      "icon": "🌉",
+      "title": "갓파바시 (河童橋)",
+      "titleEn": "Kappa Bridge",
+      "day": "Day 2 오후 · Day 3 새벽",
+      "location": "가미코치 중심 · 아즈사가와 위 현수교",
+      "duration": "자유 (Day 2 일몰 전 / Day 3 새벽 안개)",
+      "fee": "무료",
+      "image": "./web_img/kamikochi_01.png",
+      "placeId": "kamikochi-kappa",
+      "highlights": [
+        "🏔 호타카 연봉 파노라마 — 가미코치 대표 뷰포인트",
+        "🌅 Day 3 새벽 안개 — 내부 숙박 특권 (06:00 이전)",
+        "🍎 고센자쿠 호텔 애플파이 · 커피 · 생맥주",
+        "🌊 아즈사가와 에메랄드빛 청류",
+        "📷 맑은 날 수면 반영 포토 포인트"
+      ],
+      "notes": "Day 2: 갓파바시에서 점심·간식 후 묘진연못 출발점. Day 3: 05:30 새벽 안개 타임 → 07:50 버스로 다이쇼이케 이동 후 트레킹 종착점.",
+      "checklist": [
+        {
+          "item": "카메라 — 호타카 연봉 + 수면 반영"
+        },
+        {
+          "item": "Day 2: 고센자쿠 애플파이 (수량 한정)"
+        },
+        {
+          "item": "Day 3: 05:30 출발 (새벽 안개 타임)",
+          "warn": true
+        },
+        {
+          "item": "Day 3: 경량 재킷 (새벽 기온 15~18°C)"
+        }
+      ]
+    },
+    {
+      "id": "att3",
+      "icon": "🏮",
+      "title": "히가시차야가이",
+      "titleEn": "Higashi Chaya District",
+      "day": "Day 3 오후 14:00~14:35 (옵션)",
+      "location": "가나자와 히가시야마 · 에도시대 게이샤 거리",
+      "duration": "약 30분 (옵션)",
+      "fee": "무료 (디저트 별도)",
+      "image": "./web_img/higashichayagai.png",
+      "highlights": [
+        "에도시대 목조 건축",
+        "말차 디저트 & 화과자",
+        "가나자와 스윗츠 쇼핑",
+        "기모노 포토스팟"
+      ],
+      "notes": "시간이 남을 때만 포함. 짧게 메인 거리만 통과.",
+      "checklist": [
+        {
+          "item": "편한 신발 (돌길 많음)"
+        },
+        {
+          "item": "현금 준비"
+        },
+        {
+          "item": "말차 & 화과자 예산 ¥1,000~2,000"
+        },
+        {
+          "item": "기념품 쇼핑 목록 미리 정리"
+        }
+      ],
+      "placeId": "higashi-chaya"
+    },
+    {
+      "id": "att4",
+      "icon": "🌿",
+      "title": "겐로쿠엔 & 가나자와성",
+      "titleEn": "Kenrokuen Garden",
+      "day": "Day 3 오후 15:00~17:00",
+      "location": "가나자와 중심부 · 일본 3대 명원",
+      "duration": "약 1.5~2시간",
+      "fee": "어른 ¥320 / 어린이 ¥100",
+      "image": "./web_img/genrokuen.png",
+      "highlights": [
+        "고토지등롱 (가나자와 상징)",
+        "가스미가이케 연못",
+        "가나자와성 공원",
+        "계절별 정원 경관"
+      ],
+      "notes": "여름 개원 07:00. 겐로쿠엔 → 우오긴 도보 15분.",
+      "checklist": [
+        {
+          "item": "입장권 ¥320/인 현금 또는 카드"
+        },
+        {
+          "item": "우오긴 예약 시간 여유 확인"
+        },
+        {
+          "item": "음수대 있음 (물 보충 가능)"
+        },
+        {
+          "item": "기념사진 포인트: 고토지등롱"
+        }
+      ],
+      "placeId": "kenrokuen"
+    },
+    {
+      "id": "att5",
+      "icon": "🥾",
+      "title": "묘진연못 산책 (갓파바시→묘진연못)",
+      "titleEn": "Myojin Pond Walk",
+      "day": "Day 2 오후 13:30~15:45 (컨디션 좋을 때)",
+      "location": "가미코치 1,500m · 갓파바시→다케사와습원→묘진연못→갓파바시",
+      "duration": "약 2시간 15분 (약 7km 왕복) / 단축: 다케사와습원 왕복 20분",
+      "fee": "묘진연못 입장 ¥500 (현금만)",
+      "image": "./web_img/day_03_myojin.png",
+      "placeId": "myojin-pond",
+      "highlights": [
+        "🌿 다케사와 습원 — 원시림 산책로",
+        "💧 묘진이케 — 비취빛 화구호",
+        "⛩ 호타카신사 오쿠미야",
+        "🦅 야생 원숭이 포토 포인트"
+      ],
+      "notes": "컨디션에 따라 묘진연못 왕복 or 다케사와습원까지만 선택. 묘진연못 입장료 ¥500 현금 필수.",
+      "checklist": [
+        {
+          "item": "트레킹화 필수 (슬리퍼 불가)"
+        },
+        {
+          "item": "현금 ¥500 (묘진연못 입장)",
+          "warn": true
+        },
+        {
+          "item": "곰방울 (베어벨)",
+          "warn": true
+        },
+        {
+          "item": "물 1L+ 및 간식"
+        },
+        {
+          "item": "레인재킷 (소나기 대비)"
+        },
+        {
+          "item": "16:00 시라카바소 체크인 목표"
+        }
+      ]
+    }
+  ],
+  "eatExplore": {
+    "sections": [
+      {
+        "id": "hida",
+        "title": "히다 · 나나모리",
+        "subtitle": "Day 1 점심 / 고속도로 인근",
+        "emoji": "🥩",
+        "desc": "히다 지역 최고 브랜드 소고기. 미치노에키(도의 역)에서 맛보는 정통 히다규.",
+        "items": [
+          {
+            "name": "히다규 구이 정식",
+            "type": "MUST EAT",
+            "price": "¥2,000~3,500/인",
+            "where": "미치노에키 나나모리 기요미",
+            "tip": "토마토, 복숭아, 사루보보 기념품도 여기서",
+            "icon": "🥩",
+            "image": "./web_img/hidagyu.png"
+          },
+          {
+            "name": "히다 지역 특산 복숭아",
+            "type": "",
+            "price": "¥500~1,500",
+            "where": "나나모리 기요미 직매소",
+            "tip": "여름 복숭아 & 멜론/수박 드라이브 중 픽업",
+            "icon": "🍑",
+            "image": "./web_img/momo.png"
+          }
+        ]
+      },
+      {
+        "id": "norikura",
+        "title": "노리쿠라 고원",
+        "subtitle": "Day 2 오전 하산 후 점심",
+        "emoji": "🍜",
+        "desc": "신슈(나가노현) 소바의 고장. 고산 등반 후 시원한 냉소바로 체력 보충.",
+        "items": [
+          {
+            "name": "신슈 우유 소프트크림",
+            "type": "",
+            "price": "¥400~600",
+            "where": "고원 관광 안내소 인근",
+            "tip": "신슈 우유 소프트크림. 드라이브 중 간식",
+            "icon": "🍦",
+            "image": "./web_img/ice_02.png"
+          },
+          {
+            "name": "신슈 냉소바",
+            "type": "MUST EAT",
+            "price": "¥900~1,400/인",
+            "where": "소바도코로 나카노야 (中之屋)",
+            "tip": "100% 메밀, 소바 정식 or 이와나 단품요리",
+            "icon": "🍜",
+            "image": "./web_img/soba.png"
+          }
+        ]
+      },
+      {
+        "id": "kamikochi",
+        "title": "가미코치",
+        "subtitle": "Day 2 오후 갓파바시 점심·간식",
+        "emoji": "🍎",
+        "desc": "가미코치 내부 한정 먹거리. 자연 속에서만 먹을 수 있는 특별한 맛.",
+        "items": [
+          {
+            "name": "고센자쿠 애플파이",
+            "type": "MUST BUY",
+            "price": "¥900/개",
+            "where": "갓파바시 인근 고센자쿠 호텔 라운지",
+            "tip": "시라카바소 짐 맡긴 후 바로 픽업. 수량 한정 — 도착 즉시 구매",
+            "icon": "🍎",
+            "image": "./web_img/applepie.png"
+          },
+          {
+            "name": "TROIS CINQ 애플파이",
+            "type": "MUST BUY",
+            "price": "¥630/개",
+            "where": "갓파바시 인근 TROIS CINQ",
+            "tip": "고센자쿠와 함께 가미코치 대표 애플파이",
+            "icon": "🍎",
+            "image": "./web_img/applepie_02.png"
+          },
+          {
+            "name": "갓파야키",
+            "type": "",
+            "price": "¥300",
+            "where": "가미코치 관광센터 1F",
+            "tip": "점심 대용 간단 간식. 갓파바시 강변에서 먹기 좋음",
+            "icon": "🍱",
+            "image": "./web_img/gappayaki.png"
+          }
+        ]
+      },
+      {
+        "id": "kanazawa",
+        "title": "가나자와",
+        "subtitle": "Day 3 오후 & 저녁",
+        "emoji": "🐟",
+        "desc": "일본 3대 도시 미식. 노도구로(흑돔), 금박 아이스크림, 말차 등 가나자와 명물 총집합.",
+        "items": [
+          {
+            "name": "금박 아이스크림",
+            "type": "",
+            "price": "¥1,000",
+            "where": "히가시차야가이 내 찻집",
+            "tip": "하쿠이치 추천",
+            "icon": "🍵",
+            "image": "./web_img/icecream.png"
+          },
+          {
+            "name": "과일모찌",
+            "type": "",
+            "price": "¥550~700",
+            "where": "히가시차야가이 내 찻집",
+            "tip": "카즈 나카시마 추천",
+            "icon": "🍵",
+            "image": "./web_img/mozzi.png"
+          },
+          {
+            "name": "모둠 사시미",
+            "type": "",
+            "price": "¥6,000",
+            "where": "우오긴 (魚吟) · 사전 예약 필요",
+            "tip": "⚠️ 예약 필요. 이 여행의 미식 클라이맥스",
+            "icon": "🍛",
+            "image": "./web_img/sasimi.png"
+          },
+          {
+            "name": "노도구로 구이",
+            "type": "MUST EAT",
+            "price": "¥5,000",
+            "where": "우오긴 (魚吟) · 사전 예약 필요",
+            "tip": "⚠️ 예약 필요. 이 여행의 미식 클라이맥스",
+            "icon": "🐟",
+            "image": "./web_img/nodoguro.png"
+          }
+        ]
+      }
+    ]
+  },
+  "shopping": {
+    "sections": [
+      {
+        "id": "hida_boss",
+        "title": "히다 BOSS 마켓",
+        "subtitle": "Day 1 / 나나모리 점심 직후 들르기 · 고마쓰~노리쿠라 경유",
+        "emoji": "🍶",
+        "desc": "히다 지역 W(ダブリュー) 유일 특약점. 지주·크래프트맥주 총집합. 면세(TAX FREE) 가능 — 여권 지참 필수. 영업 09:00~21:00.",
+        "items": [
+          {
+            "name": "W 愛山 (아이산)",
+            "type": "MUST BUY",
+            "price": "720ml ¥1,740~1,950",
+            "where": "BOSS 마켓 냉장 코너",
+            "tip": "🍓 딸기·꿀·트로리한 단맛",
+            "icon": "🍶",
+            "image": "./web_img/sake_w_01.png"
+          },
+          {
+            "name": "W 亀の尾 (카메노오)",
+            "type": "MUST BUY",
+            "price": "720ml ¥1,740~1,950",
+            "where": "BOSS 마켓 냉장 코너",
+            "tip": "🍈 멜론·견과류·쥬시한 산미",
+            "icon": "🍶",
+            "image": "./web_img/sake_w_02.png"
+          },
+          {
+            "name": "W 秋田酒こまち (코마치)",
+            "type": "MUST BUY",
+            "price": "720ml ¥1,740~1,950",
+            "where": "BOSS 마켓 냉장 코너",
+            "tip": "🍑 백도·경쾌·깔끔한 단맛",
+            "icon": "🍶",
+            "image": "./web_img/sake_w_03.png"
+          },
+          {
+            "name": "蓬莱 夏のにごり酒 おんざろっく",
+            "type": "MUST BUY",
+            "price": "300ml ¥580 내외 (세금포함 ¥638) · 도수 15.5%",
+            "where": "BOSS 마켓 냉장 코너 · 渡辺酒造",
+            "tip": "일번니고리(一番にごり)의 여름판. 온더록이 공식 추천 음용법. 온천 후 얼음 넣고 한 잔 하기 딱 좋음",
+            "icon": "🥛",
+            "image": "./web_img/sake_nigori.png"
+          },
+          {
+            "name": "히다의 아침 쥬스",
+            "type": "",
+            "price": "개당 118엔",
+            "where": "BOSS 마켓",
+            "tip": "토마토/사과/사과&복숭아 쥬스 3가지",
+            "icon": "🍎",
+            "image": "./web_img/hidanolingo.png"
+          },
+          {
+            "name": "우메노주쿠 아라고시 믹스슈",
+            "type": "",
+            "price": "720ml ¥2,100",
+            "where": "BOSS 마켓",
+            "tip": "믹스/파인애플/모모/유즈슈",
+            "icon": "🍑",
+            "image": "./web_img/aragoshi_mix.png"
+          },
+          {
+            "name": "샌드위치 or 주먹밥",
+            "type": "",
+            "price": "커틀릿 샌드위치 600엔",
+            "where": "BOSS 마켓",
+            "tip": "커틀릿/데리야키 샌드위치, 히다규/새우튀김 주먹밥",
+            "icon": "🍑",
+            "image": "./web_img/sandwich.png"
+          },
+          {
+            "name": "소고기/굴/게살크림 고로케",
+            "type": "",
+            "price": "개당 98엔~138엔",
+            "where": "BOSS 마켓",
+            "tip": "",
+            "icon": "🥩",
+            "image": "./web_img/beef_goroke.png"
+          }
+        ]
+      },
+      {
+        "id": "norikura",
+        "title": "노리쿠라",
+        "subtitle": "Day 1~2 / 고원 관광센터·에코 노리쿠라",
+        "emoji": "⛰️",
+        "desc": "노리쿠라 고원 한정 특산품. 후루사토무라 에코 노리쿠라(ふるさとむら エコー乗鞍)에서 대부분 한 번에 구매 가능. 숙박 전후로 들르기 좋음.",
+        "items": [
+          {
+            "name": "노리쿠라 온천 유노하나",
+            "type": "MUST BUY",
+            "price": "¥600~1,500",
+            "where": "후루사토무라 에코 노리쿠라 · 관광센터 근처",
+            "tip": "천연 유황온천 입욕제. 집에서 노리쿠라 온천 재현 가능. 욕조 재질·금속 부식 주의",
+            "icon": "🛁",
+            "image": "./web_img/yunohana.png"
+          },
+          {
+            "name": "얌얌트리 하늘 바움쿠헨",
+            "type": "MUST BUY",
+            "price": "¥2,000~2,200",
+            "where": "YUM YUM TREE · 노리쿠라 고원 공방",
+            "tip": "해발 1,300m 고지대에서 저기압으로 구워 평지보다 훨씬 폭신·촉촉. 노리쿠라 대표 스위츠",
+            "icon": "🎂",
+            "image": "./web_img/yumyum.png"
+          },
+          {
+            "name": "산스모모 잼 / 와인",
+            "type": "",
+            "price": "잼 ¥600~800 / 와인 ¥1,500~2,500",
+            "where": "후루사토무라 에코 노리쿠라",
+            "tip": "노리쿠라 고원 특산 야생 자두 상품. 새콤달콤 로컬 느낌 강함. 잼은 가볍게 선물하기 좋음",
+            "icon": "🫐",
+            "image": "./web_img/sanjadu.png"
+          }
+        ]
+      },
+      {
+        "id": "kamikochi",
+        "title": "가미코치",
+        "subtitle": "Day 2 트레킹 중·후 / 갓파바시 주변",
+        "emoji": "🏔",
+        "desc": "가미코치 한정 스위츠 & 기념품. 갓파바시 인근 기프트샵·고센자쿠 호텔·시라카바소 내 매장에서 구매 가능. 냉장 불필요 제품 위주로 구매 권장.",
+        "items": [
+          {
+            "name": "뇌조의 마을 (雷鳥の里)",
+            "type": "MUST BUY",
+            "price": "9개 ¥810 / 16개 ¥1,188 / 25개 ¥1,728",
+            "where": "갓파바시 기념품샵 · 가미코치 오미야게야",
+            "tip": "바삭한 웨이퍼+크림 샌드. 개별 포장이라 나눠주기 1순위. 북알프스 상징 뇌조 이름의 50년 장수 과자",
+            "icon": "🐦",
+            "image": "./web_img/cake02.png"
+          },
+          {
+            "name": "가미코치 한정 링고 랑드샤",
+            "type": "MUST BUY",
+            "price": "21매 ¥1,350",
+            "where": "갓파바시 기념품샵",
+            "tip": "신슈 사과 과즙 넣은 초코를 얇은 쿠키로 샌드. 가볍고 사크사크, 상고지 한정 26년 최신상",
+            "icon": "🍎",
+            "image": "./web_img/26sweets.png"
+          },
+          {
+            "name": "신슈 사과 애플파이",
+            "type": "MUST BUY",
+            "price": "¥900 내외",
+            "where": "시라카바소, 고센자쿠, TROIS CINQ",
+            "tip": "신슈 사과를 사용한 대표 스위츠",
+            "icon": "🍎",
+            "image": "./web_img/applepie_03.png"
+          },
+          {
+            "name": "가미코치 스틱 케이크",
+            "type": "",
+            "price": "단품 ¥350 / 6개 세트 ¥2,200",
+            "where": "가미코치 오미야게야",
+            "tip": "사과·밤·호두 3가지 맛 구움과자. 가미코치 이름 붙은 현지 한정품으로 기념품 느낌 강함",
+            "icon": "🍰",
+            "image": "./web_img/stickcake.png"
+          },
+          {
+            "name": "고센자쿠 호텔 오리지널 잼",
+            "type": "",
+            "price": "290g ¥1,100~1,200 / 480g ¥1,500~1,700",
+            "where": "고센자쿠 호텔 · 갓파바시 인근",
+            "tip": "블루베리·감귤 마멀레이드 등 인기. 과자보다 실용적인 선물. 빵·요거트와 잘 어울려 가족 선물용으로 무난",
+            "icon": "🫙",
+            "image": "./web_img/zam.png"
+          },
+          {
+            "name": "가미코치 푸딩",
+            "type": "",
+            "price": "¥400~600",
+            "where": "고센자쿠 호텔 · 가미코치 오미야게야",
+            "tip": "진한 현지 푸딩. 냉장 보관 필요해 본인용 현지 디저트로 추천. 선물보다는 트레킹 후 즉석 간식",
+            "icon": "🍮",
+            "image": "./web_img/pudding.png"
+          }
+        ]
+      },
+      {
+        "id": "kanazawa",
+        "title": "가나자와",
+        "subtitle": "Day 3 시내 / Day 4 공항",
+        "emoji": "🛍",
+        "desc": "가나자와 대표 기념품. 금박 공예품과 화과자가 유명. 면세 매장은 가나자와역·고마쓰 공항에서 이용.",
+        "items": [
+          {
+            "name": "가나자와 금박 (긴파쿠) 화장품 등",
+            "type": "",
+            "price": "¥1,000~10,000",
+            "where": "히가시차야가이 · 하쿠자 본점",
+            "tip": "금박 화장품·식용 금박·공예품 다양. 작은 사이즈 추천",
+            "icon": "✨",
+            "image": ""
+          }
+        ]
+      }
+    ]
+  },
+  "cameras": [
+    {
+      "id": "norikura",
+      "name": "노리쿠라 고원",
+      "nameJp": "乗鞍高原·乗鞍岳",
+      "desc": "노리쿠라고원에서 바라본 노리쿠라다케 현재 상황. 셔틀 탑승 전 날씨 확인.",
+      "day": "Day 2",
+      "dayTag": "D2 오전",
+      "type": "external",
+      "url": "https://chubusangaku.jp/ja/plan/parkingfeed/",
+      "thumb": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&q=80",
+      "tags": [
+        "셔틀 출발지",
+        "날씨 확인"
+      ],
+      "note": "외부 사이트에서 보기"
+    },
+    {
+      "id": "kamikochi-bt",
+      "name": "가미코치 버스터미널",
+      "nameJp": "上高地バスターミナル",
+      "desc": "자연공원재단 제공. 터미널 전경·가라마쓰 숲·혼잡도 확인. 4K 24시간 중계.",
+      "day": "Day 2",
+      "dayTag": "D2 오후",
+      "type": "youtube",
+      "videoId": "Hz3GKL4yDcw",
+      "tags": [
+        "4K",
+        "24시간",
+        "혼잡도"
+      ],
+      "note": "유튜브 라이브"
+    },
+    {
+      "id": "kamikochi-kappa",
+      "name": "가미코치 갓파바시",
+      "nameJp": "上高地 河童橋",
+      "desc": "五千尺ホテル 제공. 갓파바시·아즈사강·호타카 연봉. 4K 24시간 중계.",
+      "day": "Day 2",
+      "dayTag": "D2 오후",
+      "type": "youtube",
+      "videoId": "Iv2VUE_UhRQ",
+      "tags": [
+        "4K",
+        "24시간",
+        "갓파바시"
+      ],
+      "note": "유튜브 라이브"
+    },
+    {
+      "id": "kenrokuen",
+      "name": "겐로쿠엔 1",
+      "nameJp": "兼六園",
+      "desc": "이시카와현 제공. 일본 3대 명원 실시간 중계.",
+      "day": "Day 3",
+      "dayTag": "D3",
+      "type": "youtube",
+      "videoId": "ZpzNv_hNxPE",
+      "tags": [
+        "일본 3대 명원"
+      ],
+      "note": "유튜브 라이브"
+    },
+    {
+      "id": "kenrokuen2",
+      "name": "겐로쿠엔 2",
+      "nameJp": "兼六園",
+      "desc": "이시카와현 제공. 일본 3대 명원 실시간 중계.",
+      "day": "Day 3",
+      "dayTag": "D3",
+      "type": "youtube",
+      "videoId": "Cy03efFcGyk",
+      "tags": [
+        "일본 3대 명원"
+      ],
+      "note": "유튜브 라이브"
+    },
+    {
+      "id": "gyokusen",
+      "name": "교쿠센인마루 정원",
+      "nameJp": "玉泉院丸庭園",
+      "desc": "이시카와현 제공",
+      "day": "Day 3",
+      "dayTag": "D3",
+      "type": "youtube",
+      "videoId": "WBk0do7-Av0",
+      "tags": [
+        "일본정원"
+      ],
+      "note": "유튜브 라이브"
+    },
+    {
+      "id": "21centry",
+      "name": "21세기 미술관",
+      "nameJp": "金沢21世紀美術館",
+      "desc": "21세기 미술관, 가나자와성 공원 주변 하늘 상태와 시야, 비 여부 확인",
+      "day": "Day 3",
+      "dayTag": "D3",
+      "type": "youtube",
+      "videoId": "HmnLIvhyUZw",
+      "tags": [
+        "24시간",
+        "21세기미술관"
+      ],
+      "note": "유튜브 라이브"
+    }
+  ],
+  "places": [
+    {
+      "id": "komatsu-airport",
+      "name": "고마쓰 공항",
+      "nameJp": "小松空港",
+      "lat": 36.3946,
+      "lng": 136.4072,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E6%9D%BE%E7%A9%BA%E6%B8%AF",
+      "hours": "공항 운영시간 상이",
+      "link": "https://www.komatsuairport.jp/",
+      "mapcode": "57 336 506*77"
+    },
+    {
+      "id": "nanamori-kiyomi",
+      "name": "미치노에키 나나모리 키요미",
+      "nameJp": "道の駅 ななもり清見",
+      "lat": 36.13398948942029,
+      "lng": 137.16705237888016,
+      "mapUrl": "https://maps.app.goo.gl/npExVkaZP77XZEAP9",
+      "hours": "09:40~16:00",
+      "link": "https://nanamori.jp/",
+      "mapcode": "191 155 611*74"
+    },
+    {
+      "id": "boss-mart",
+      "name": "Boss Foods Market Honten",
+      "nameJp": "ボスフーズ マーケット本店",
+      "lat": 36.142882844719225,
+      "lng": 137.24776690218172,
+      "mapUrl": "https://maps.app.goo.gl/jZxwmxgQsDEeRz1c8",
+      "hours": "09:00~21:00",
+      "link": "https://www.boss-foods-market.jp/",
+      "mapcode": "191 195 632*50"
+    },
+    {
+      "id": "kyukamura-norikura",
+      "name": "큐카무라 노리쿠라 고원(우시도메 연못)",
+      "nameJp": "休暇村 乗鞍高原",
+      "lat": 36.1145526028911,
+      "lng": 137.61310287219501,
+      "mapUrl": "https://maps.app.goo.gl/Adhd7SjhKsxn6h4R7",
+      "hours": "상시",
+      "link": "http://www.qkamura.or.jp/norikura/",
+      "mapcode": "620 418 298*10"
+    },
+    {
+      "id": "gengoro_waterfall",
+      "name": "젠고로 폭포 주차장(화장실 뒷편길로 이동)",
+      "nameJp": "乗鞍高原 第3駐車場 (やまぼうし駐車場)",
+      "lat": 36.11893569255463,
+      "lng": 137.6168897177421,
+      "mapUrl": "https://maps.app.goo.gl/pwttmUrdsRkwx8Ue7",
+      "hours": "상시",
+      "link": "",
+      "mapcode": "620 419 791*45"
+    },
+    {
+      "id": "alphorn-pension",
+      "name": "알프호른 펜션",
+      "nameJp": "ペンション アルプホルン",
+      "lat": 36.12587784493798,
+      "lng": 137.64819884883718,
+      "mapUrl": "https://maps.app.goo.gl/bSWhcRnjkGpg98m66",
+      "hours": "체크인 15:00 / 체크아웃 10:00",
+      "link": "https://alphorn2666.net/",
+      "mapcode": "405 423 634*51"
+    },
+    {
+      "id": "norikura-kogen-parking01",
+      "name": "노리쿠라 고원 제 1 주차장",
+      "nameJp": "乗鞍高原第1駐車場",
+      "lat": 36.122194034150766,
+      "lng": 137.62431443388277,
+      "mapUrl": "https://maps.app.goo.gl/Ve9ZgaBe95Lh8KPb8",
+      "hours": "상시",
+      "link": "",
+      "mapcode": "405 420 248*01"
+    },
+    {
+      "id": "white_waterfall",
+      "name": "흰폭포",
+      "nameJp": "百の滝",
+      "lat": 36.13756231642328,
+      "lng": 137.6749152051468,
+      "mapUrl": "https://maps.app.goo.gl/gnZTcG3zWHP5TXZm9",
+      "hours": "상시",
+      "link": "",
+      "mapcode": "405 486 070*10"
+    },
+    {
+      "id": "norikura-kogen",
+      "name": "노리쿠라 고원",
+      "nameJp": "乗鞍高原",
+      "lat": 36.1018,
+      "lng": 137.6286,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%97%E9%9E%8D%E9%AB%98%E5%8E%9F",
+      "hours": "상시",
+      "link": "https://norikura.gr.jp/",
+      "mapcode": "629 130 543*30"
+    },
+    {
+      "id": "sawando-parking",
+      "name": "시영 제 2 주차장",
+      "nameJp": "市営第二駐車場",
+      "lat": 36.166059921115156,
+      "lng": 137.6524007455985,
+      "mapUrl": "https://maps.app.goo.gl/geh5xS5bMSXSoNss5",
+      "hours": "24시간 · ¥800/일 · 택시 승강장 인접",
+      "link": "",
+      "mapcode": "405 573 499*18"
+    },
+    {
+      "id": "tatamidaira",
+      "name": "다타미다이라 (2,702m)",
+      "nameJp": "乗鞍畳平",
+      "lat": 36.1066,
+      "lng": 137.5536,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E4%B9%97%E9%9E%8D%E7%95%B3%E5%B9%B3",
+      "hours": "셔틀 운행시간 내(여름 07:00~)",
+      "link": "https://norikura.gr.jp/",
+      "mapcode": null
+    },
+    {
+      "id": "kamikochi-kappa",
+      "name": "가미코치 갓파바시",
+      "nameJp": "上高地 河童橋",
+      "lat": 36.2516,
+      "lng": 137.6469,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%B2%B3%E7%AB%A5%E6%A9%8B",
+      "hours": "상시(셔틀 운행 시간 내 접근)",
+      "link": "https://www.kamikochi.or.jp/",
+      "mapcode": null
+    },
+    {
+      "id": "myojin-pond",
+      "name": "묘진연못",
+      "nameJp": "明神池",
+      "lat": 36.2606,
+      "lng": 137.6694,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E6%98%8E%E7%A5%9E%E6%B1%A0",
+      "hours": "06:00~일몰 · 입장 ¥500(현금)",
+      "link": "https://www.kamikochi.or.jp/",
+      "mapcode": null
+    },
+    {
+      "id": "shrakawago",
+      "name": "미치노에키 시라카와고",
+      "nameJp": "道の駅 白川郷",
+      "lat": 36.278998831582875,
+      "lng": 136.90133967362195,
+      "mapUrl": "https://maps.app.goo.gl/zTKHg38hdo9sLKcc8",
+      "hours": "08:30~17:00",
+      "link": "https://rs-shirakawago.jp/",
+      "mapcode": "549 108 105*64"
+    },
+    {
+      "id": "higashi-chaya",
+      "name": "히가시차야가이",
+      "nameJp": "ひがし茶屋街",
+      "lat": 36.5739059394951,
+      "lng": 136.66508993406393,
+      "mapUrl": "https://maps.app.goo.gl/rdokZggkWbbggcpC7",
+      "hours": "거리 상시 · 점포별 상이",
+      "link": "",
+      "mapcode": "41 560 455*56"
+    },
+    {
+      "id": "hotel-sanraku",
+      "name": "호텔 산라쿠 가나자와",
+      "nameJp": "ホテル山楽 金沢",
+      "lat": 36.561,
+      "lng": 136.656,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E3%83%9B%E3%83%86%E3%83%AB%E5%B1%B1%E6%A5%BD%E9%87%91%E6%B2%A2",
+      "hours": "체크인 15:00 / 아웃 11:00",
+      "link": "",
+      "mapcode": "41 559 072*43"
+    },
+    {
+      "id": "kenrokuen",
+      "name": "겐로쿠엔",
+      "nameJp": "兼六園",
+      "lat": 36.5622,
+      "lng": 136.6626,
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=%E5%85%BC%E5%85%AD%E5%9C%92",
+      "hours": "여름 07:00~18:00 · 어른 ¥320",
+      "link": "https://www.pref.ishikawa.jp/siro-niwa/kenrokuen/",
+      "mapcode": ""
+    },
+    {
+      "id": "uogin",
+      "name": "우오긴",
+      "nameJp": "魚吟",
+      "lat": 36.56021401748982,
+      "lng": 136.65142306899256,
+      "mapUrl": "https://maps.app.goo.gl/FszJJ1bMyHe7KdgR8",
+      "hours": "저녁 영업 · 예약 권장",
+      "link": "https://booking.ebica.jp/webrsv/search/e020046201/21294?isfixshop=true&affiid=glb",
+      "mapcode": ""
+    },
+    {
+      "id": "toyota-komatsu",
+      "name": "도요타 렌트카 고마쓰 공항점",
+      "nameJp": "トヨタレンタカー 小松空港店",
+      "lat": 36.40594387320062,
+      "lng": 136.41587704392086,
+      "mapUrl": "https://maps.app.goo.gl/oY8J1mKuX2DVbj1w9",
+      "hours": "08:00~20:00",
+      "link": "https://rent.toyota.co.jp/shop/detail.aspx?rCode=64201&eCode=003",
+      "mapcode": "120 560 307*73"
+    }
+  ]
+}

@@ -3562,8 +3562,6 @@ function _editorJsonBlob() {
 async function saveTripJson() {
   const text = _editorJsonBlob();
   if (!text) { alert('JSON 오류'); return; }
-
-  // localStorage 백업
   try { localStorage.setItem('trip_custom_json', text); } catch {}
 
   try {
@@ -3584,14 +3582,92 @@ async function saveTripJson() {
       history.replaceState({}, '', `?id=${id}`);
     }
 
-    const shareUrl = `${location.origin}${location.pathname}?id=${id}`;
-    await navigator.clipboard.writeText(shareUrl).catch(() => {});
-    alert(`✅ 클라우드 저장 완료!\n\n🔗 공유 링크 (클립보드 복사됨):\n${shareUrl}\n\n이 링크로 어느 기기에서든 접속 가능합니다.`);
+    _showShareModal(`${location.origin}${location.pathname}?id=${id}`);
 
   } catch (e) {
-    alert('저장 실패: ' + e.message + '\n\n파일로 다운로드합니다.');
+    alert('저장 실패: ' + e.message);
     downloadTripJson(text);
   }
+}
+
+function _showShareModal(shareUrl) {
+  const existing = document.getElementById('share-modal');
+  if (existing) existing.remove();
+
+  const modal = document.createElement('div');
+  modal.id = 'share-modal';
+  modal.style.cssText = [
+    'position:fixed;inset:0;background:rgba(0,0,0,.45);',
+    'z-index:9999;display:flex;align-items:flex-end;justify-content:center;'
+  ].join('');
+
+  modal.innerHTML = `
+    <div style="background:#fff;border-radius:24px 24px 0 0;padding:24px 20px 48px;
+                width:100%;max-width:430px;box-shadow:0 -8px 48px rgba(0,0,0,.2);">
+      <div style="width:36px;height:4px;background:#E5E7EB;border-radius:2px;margin:0 auto 20px;"></div>
+      <div style="font-size:17px;font-weight:800;color:#111827;margin-bottom:6px;">
+        ✅ 클라우드 저장 완료!
+      </div>
+      <div style="font-size:13px;color:#6B7280;margin-bottom:16px;line-height:1.6;">
+        아래 링크로 어느 기기에서든 내 여행을 볼 수 있습니다.
+      </div>
+      <div id="share-url-box" style="background:#F3F4F6;border-radius:10px;padding:12px 14px;
+           margin-bottom:14px;word-break:break-all;font-size:12.5px;
+           color:#1E70FF;font-family:monospace;line-height:1.6;cursor:text;
+           user-select:all;-webkit-user-select:all;">
+        ${shareUrl}
+      </div>
+      <div style="display:flex;gap:8px;">
+        <button id="share-copy-btn"
+          onclick="_copyShareUrl('${shareUrl}', this)"
+          style="flex:1;background:#1E70FF;color:#fff;border:none;border-radius:12px;
+                 padding:14px;font-size:14px;font-weight:700;cursor:pointer;
+                 font-family:inherit;">
+          🔗 링크 복사
+        </button>
+        <button onclick="document.getElementById('share-modal').remove()"
+          style="background:#F3F4F6;color:#374151;border:none;border-radius:12px;
+                 padding:14px 20px;font-size:14px;font-weight:600;cursor:pointer;
+                 font-family:inherit;">
+          닫기
+        </button>
+      </div>
+    </div>`;
+
+  document.body.appendChild(modal);
+  modal.addEventListener('click', e => { if (e.target === modal) modal.remove(); });
+}
+
+function _copyShareUrl(url, btn) {
+  const doCopy = () => {
+    // 방법 1: Clipboard API
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(url)
+        .then(() => true).catch(() => false);
+    }
+    return Promise.resolve(false);
+  };
+
+  const fallback = () => {
+    // 방법 2: execCommand (구형 브라우저·iOS 대응)
+    const ta = document.createElement('textarea');
+    ta.value = url;
+    ta.style.cssText = 'position:fixed;top:-9999px;opacity:0;';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy'); } catch {}
+    document.body.removeChild(ta);
+  };
+
+  doCopy().then(ok => {
+    if (!ok) fallback();
+    btn.textContent = '✅ 복사됨!';
+    btn.style.background = '#059669';
+    setTimeout(() => {
+      btn.textContent = '🔗 링크 복사';
+      btn.style.background = '#1E70FF';
+    }, 2500);
+  });
 }
 
 function downloadTripJson(text) {

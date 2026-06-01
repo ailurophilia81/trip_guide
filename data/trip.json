@@ -115,11 +115,11 @@
       "t1": "나가노",
       "t2": "&amp; 가미코치",
       "t3": "— 가나자와로",
-      "dateVal": "2026 · 07 · 23 — 26"
+      "dateVal": "2026 · mm · d1 — d4"
     },
     "compact": {
       "title": "나가노 · 가미코치 · 가나자와",
-      "date": "2026.mm.dd — 26"
+      "date": "2026.mm.d1 — d4"
     },
     "cardHeader": {
       "title": "여행 가이드",
@@ -560,8 +560,8 @@
       "city": "고마쓰 → 노리쿠라",
       "lat": 36.09,
       "lng": 137.55,
-      "refDate": "2025-07-28",
-      "actualDate": "2026-07-23",
+      "refDate": "2025-mm-d1",
+      "actualDate": "2026-mm-d1",
       "budget": [
         {
           "label": "숙박 (2식 포함)",
@@ -752,8 +752,8 @@
       "city": "다타미다이라 → 가미코치",
       "lat": 36.25,
       "lng": 137.65,
-      "refDate": "2025-07-29",
-      "actualDate": "2026-07-24",
+      "refDate": "2025-mm-d2",
+      "actualDate": "2026-mm-d2",
       "budget": [
         {
           "label": "시라카바소 (2식 포함)",
@@ -1063,8 +1063,8 @@
       "city": "가미코치 → 가나자와",
       "lat": 36.56,
       "lng": 136.66,
-      "refDate": "2025-07-30",
-      "actualDate": "2026-07-25",
+      "refDate": "2025-mm-d3",
+      "actualDate": "2026-mm-d3",
       "budget": [
         {
           "label": "호텔 산라쿠",
@@ -1384,8 +1384,8 @@
       "city": "가나자와 → 고마쓰 귀국",
       "lat": 36.39,
       "lng": 136.41,
-      "refDate": "2025-07-31",
-      "actualDate": "2026-07-26",
+      "refDate": "2025-mm-d4",
+      "actualDate": "2026-mm-d4",
       "budget": [
         {
           "label": "주유",

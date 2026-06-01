@@ -2947,7 +2947,7 @@ function _currentMainColor() {
 }
 function _readMetaFromDOM() {
   const t = (window.TRIP_DATA && TRIP_DATA.home && TRIP_DATA.home.compact) || {};
-  return { title: t.title || '나가노 · 가미코치 · 가나자와', date: t.date || '2026.07.23 — 26' };
+  return { title: t.title || '나가노 · 가미코치 · 가나자와', date: t.date || '2026.mm.dd — dd' };
 }
 function _readOverviewFromDOM() {
   return (window.TRIP_DATA && TRIP_DATA.overview) || {};

@@ -3552,26 +3552,37 @@ function _editorJsonBlob() {
 // File System Access API 우선, 미지원 시 다운로드 폴백
 async function saveTripJson() {
   const text = _editorJsonBlob();
-  if (text == null) { alert('JSON 형식이 올바르지 않아 저장할 수 없습니다.'); return; }
-  if (window.showSaveFilePicker) {
-    try {
-      if (!_editorSavedHandle) {
-        _editorSavedHandle = await window.showSaveFilePicker({
-          suggestedName: 'trip.json',
-          types: [{ description: 'JSON', accept: { 'application/json': ['.json'] } }]
-        });
-      }
-      const writable = await _editorSavedHandle.createWritable();
-      await writable.write(text);
-      await writable.close();
-      await verifySavedTripJson(_editorSavedHandle, text);
-      return;
-    } catch (e) {
-      if (e && e.name === 'AbortError') return; // 사용자가 취소
-      console.warn('FS Access 저장 실패, 다운로드로 폴백:', e);
+  if (!text) { alert('JSON 오류'); return; }
+
+  // localStorage에도 저장 (오프라인 백업)
+  try { localStorage.setItem('trip_custom_json', text); } catch {}
+
+  try {
+    let id = window._currentTripId;
+    const method = id ? 'PUT' : 'POST';
+    const url = id ? `/api/trip?id=${id}` : '/api/trip';
+
+    const res = await fetch(url, {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+      body: text
+    });
+    const data = await res.json();
+
+    if (!id) {
+      id = data.id;
+      window._currentTripId = id;
+      history.replaceState({}, '', `?id=${id}`);
     }
+
+    const shareUrl = `${location.origin}${location.pathname}?id=${id}`;
+    await navigator.clipboard.writeText(shareUrl).catch(() => {});
+    alert(`✅ 저장 완료!\n\n🔗 공유 링크 (클립보드 복사됨):\n${shareUrl}\n\n이 링크로 어느 기기에서든 접속 가능합니다.`);
+
+  } catch (e) {
+    // API 실패 시 파일 다운로드로 폴백
+    downloadTripJson(text);
   }
-  downloadTripJson(text);
 }
 
 function downloadTripJson(text) {

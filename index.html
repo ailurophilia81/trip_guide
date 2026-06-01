@@ -3558,7 +3558,6 @@ function _editorJsonBlob() {
   return JSON.stringify(obj, null, 2);
 }
 
-// File System Access API 우선, 미지원 시 다운로드 폴백
 async function saveTripJson() {
   const text = _editorJsonBlob();
   if (!text) { alert('JSON 오류'); return; }
